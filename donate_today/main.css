@@ -82,10 +82,77 @@ input[type=text]{
     border-bottom: 2px solid #ccc;
     text-align: center;
 }
+#donate_plane{
+    display: flex;
+    margin: 20px auto;
+    text-align: left;
+    width: 600px;
+}
+#food{
+    margin: auto;
+    padding: 15px;
+    font-family:initial;
+    height: 180px;
+    width: 150px;
+    background-color: #4f9da628;
+}
+#edu{
+    margin: auto;
+    padding: 15px;
+    font-family:initial;
+    height: 180px;
+    width: 150px;
+    background-color: #ff595923;
+}
+#family{
+    margin: auto;
+    padding: 15px;
+    font-family:initial;
+    height: 180px;
+    width: 150px;
+    background-color: #FFF4D6;
+}
+#email{
+    margin: 20px auto;
+    text-align: left;
+    width: 400px;
+    height: 100px;
+    background-color: #FFF4D6;
+}
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 25px 0px 0px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email_btn] {
+    width: 120px;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px;
+    margin: -3px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+  
+input[type=email_btn]:hover {
+    background-color: #fa4444;
+}
+
+
+
+
+
 #footer{
+    margin: auto;
     padding-top: 1px;
     height: 100px;
-    width: 100%;
+    width: 700px;
     background-color: black;
     color: white;
 }
