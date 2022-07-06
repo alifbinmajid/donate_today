@@ -1,3 +1,91 @@
-h1{
-    color: aqua;
+body{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin: 0;
+    background-color: rgba(12, 12, 12, 0.555);
+}
+.bg{
+    
+}
+.hader_bg{
+    margin: auto;
+    background-image: url(img/donation0.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 480px;
+    width: 700px;
+    color: white;
+}
+#hader{
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 200px;
+    width: 420px;
+    padding: 20%;
+    text-align: center;
+}
+input[type=submit] {
+    width: 120px;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #fa4444;
+  }
+.donate_bg{
+    margin: auto;
+    background-color:white;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+}
+.donate{
+    margin: auto;
+    height: 125px;
+    width: 455px;
+    text-align: center;
+    padding-top: 5%;
+}
+#donate_amount{
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    width: 455px;
+    
+}
+.amount{
+    background-color: rgba(58, 44, 44, 0.048);
+    margin: auto;
+    padding: 15px;
+    font-family:initial;
+    
+}
+#r_amount{
+    background-color: rgba(223, 65, 91, 0.281);
+    color: rgb(223, 65, 91);
+    margin: auto;
+    padding: 15px;
+    font-family:initial;
+    border: 2px rgba(223, 65, 91, 0.281) solid;
+    
+}
+input[type=text]{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+#footer{
+    padding-top: 1px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
